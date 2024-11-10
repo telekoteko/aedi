@@ -6,7 +6,7 @@ import random
 from scipy.stats import poisson
 
 sl.title("AEDI - Simulação de Jogos do Brasileirão 2024")
-sl.write("Uma aplicação que usa a distribuição de Poisson e Simulação de Monte Carlos para estimar resultados de partidas de futebol a partir do histórico (médias) de gols de cada time como mandante e visitante ao longo das 32 rodadas já encerradas no Brasileirão Série A 2024.")
+sl.write("Uma aplicação que usa a distribuição de Poisson e Simulação de Monte Carlo para estimar resultados de partidas de futebol a partir do histórico (médias) de gols de cada time como mandante e visitante ao longo das 32 rodadas já encerradas no Brasileirão Série A 2024.")
 
 # carregar os dados
 df = pd.read_csv("brasileirao_2024.csv")
